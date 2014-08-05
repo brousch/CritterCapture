@@ -5,6 +5,7 @@ sudo apt-get update
 cat system_packages.txt | xargs sudo apt-get -y install
 
 # Create a virtualenv
+cd ..
 rm -rf venv
 virtualenv -p python2.7 venv
 
